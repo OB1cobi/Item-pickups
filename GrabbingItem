@@ -3,9 +3,11 @@ using UnityEngine;
 public class Grabbing : MonoBehaviour
 {
 
-/* to make this work you need to have this script on the player
-// and put the "IsGrabbable" script on any item you want to be 
-/* capable of being picked up
+/*
+to make this work you need to have this script on the player
+and put the "IsGrabbable" script on any item you want to be 
+capable of being picked up
+*/
 
     // Reference to the character camera.
     [SerializeField] private Camera characterCamera;
